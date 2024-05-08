@@ -18,7 +18,7 @@ import sys
 
 parser=argparse.ArgumentParser()
 
-parser.add_argument('--dir', '-d', required=True, help='Name of the UCI Dataset directory. Eg: bostonHousing')
+parser.add_argument('-d', '--dir', required=True, help='Name of the UCI Dataset directory. Eg: bostonHousing')
 parser.add_argument('--epochx','-e', default=500, type=int, help='Multiplier for the number of epochs for training.')
 parser.add_argument('--hidden', '-nh', default=2, type=int, help='Number of hidden layers for the neural net')
 
